@@ -1,0 +1,42 @@
+﻿{
+  //"compileOnSave": true,
+  "compilerOptions": {
+    "target": "ES5",
+    "module": "commonjs",
+    //"removeComments": true,
+    //"preserveConstEnums": true,
+    //"sourceMap": true,
+    "jsx": "react", //,
+    //"outFile": "entry.js",
+    //"noImplicitAny": false,
+    //"declaration": true,
+    //"rootDir": "./src",
+    //"outDir": "./Scripts/reactjs/lib/"
+    //"outDir": "./lib/",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": false,
+    "skipLibCheck": true
+  },
+  //"filesGlob": [
+  //  "./Scripts/reactjs/src/*.ts",
+  //  "./Scripts/reactjs/src/*.tsx"
+  //],
+  "filesGlob": [
+    //"./node_modules/moment/moment.d.ts",
+    "./Scripts/**/*.tsx"
+  ],
+  "exclude": [
+    //"lib",
+    //"Enums.ts",
+    "node_modules"
+  ]
+  //,
+  //"files": [
+  //  "TypeScripts/",
+  //  "typings/tsd.d.ts",
+  //  "Scripts/TypeLite.Net4.d.ts"
+  //]
+}

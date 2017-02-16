@@ -1,0 +1,210 @@
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\ApplicationInsights.config
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\csc.exe
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\System.Collections.Immutable.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\vbc.exe
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\VBCSCompiler.exe
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\roslyn\VBCSCompiler.exe.config
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\SKLTFZ.dll.config
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\SKLTFZ.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\SKLTFZ.pdb
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Antlr3.Runtime.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\EntityFramework.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\EntityFramework.SqlServer.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.Web.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.WindowsServer.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.ApplicationInsights.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Google.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Newtonsoft.Json.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Owin.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Helpers.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Mvc.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Optimization.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Razor.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.WebPages.Deployment.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.WebPages.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.WebPages.Razor.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\WebGrease.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.Web.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AI.WindowsServer.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.ApplicationInsights.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Helpers.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Mvc.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Optimization.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.Razor.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.WebPages.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.WebPages.Deployment.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\System.Web.WebPages.Razor.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Antlr3.Runtime.pdb
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Newtonsoft.Json.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\EntityFramework.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\EntityFramework.SqlServer.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Google.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\obj\Debug\SKLTFZ.csprojResolveAssemblyReference.cache
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\obj\Debug\SKLTFZ.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\obj\Debug\SKLTFZ.pdb
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\ClearScript.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.Core.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.Msie.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.V8.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JSPool.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\MsieJavaScriptEngine.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\React.Core.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\React.Web.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\React.Web.Mvc4.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\VroomJs.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\WebActivatorEx.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.Core.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.Msie.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JavaScriptEngineSwitcher.V8.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\JSPool.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\MsieJavaScriptEngine.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\React.Core.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\React.Web.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\React.Web.Mvc4.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\VroomJs.xml
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+c:\users\sam.mak\documents\visual studio 2015\Projects\SKLTFZ\SKLTFZ\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\ApplicationInsights.config
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\csc.exe
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\vbc.exe
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\VBCSCompiler.exe
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\SKLTFZ.dll.config
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\SKLTFZ.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\SKLTFZ.pdb
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Antlr3.Runtime.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\ClearScript.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\EntityFramework.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\EntityFramework.SqlServer.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.ChakraCore.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.Core.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.Msie.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.V8.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JSPool.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.Web.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.ApplicationInsights.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\MsieJavaScriptEngine.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Newtonsoft.Json.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Owin.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Helpers.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Mvc.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Optimization.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Razor.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.WebPages.Deployment.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.WebPages.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.WebPages.Razor.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\VroomJs.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\WebActivatorEx.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\WebGrease.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.ChakraCore.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.Core.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.Msie.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JavaScriptEngineSwitcher.V8.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\JSPool.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.Web.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.ApplicationInsights.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\MsieJavaScriptEngine.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Newtonsoft.Json.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Helpers.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Mvc.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Optimization.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.Razor.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.WebPages.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.WebPages.Deployment.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\System.Web.WebPages.Razor.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\VroomJs.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Antlr3.Runtime.pdb
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\EntityFramework.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\EntityFramework.SqlServer.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\ru-ru\JavaScriptEngineSwitcher.ChakraCore.resources.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\ru-ru\JavaScriptEngineSwitcher.Core.resources.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\ru-ru\JavaScriptEngineSwitcher.V8.resources.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\bin\ru-ru\MsieJavaScriptEngine.resources.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\obj\Debug\SKLTFZ.dll
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\obj\Debug\SKLTFZ.pdb
+C:\Users\sam.mak\Documents\RealProject\SKLTFZ\obj\Debug\SKLTFZ.csprojResolveAssemblyReference.cache
