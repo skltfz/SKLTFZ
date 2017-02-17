@@ -1,0 +1,11 @@
+﻿<div id="app"></div>
+<script src="~/Scripts/app/bundle.js"></script>
+@{   
+    string[] cssDllFiles = Directory.Exists(Server.MapPath("~/Scripts/app/"))
+        ? Directory.GetFiles(Server.MapPath("~/Scripts/app/"), "*.css")
+        : new string[0];
+    foreach (string file in cssDllFiles)
+    {
+        <link rel="stylesheet" href="@Url.Content($"~/Scripts/app/{Path.GetFileName(file)}")">
+    }
+}

@@ -38,12 +38,13 @@
     "webpack": "^1.14.0",
     "webpack-dev-server": "^1.16.2",
     "webpack-notifier": "^1.5.0",
-    "react": "^15.4.1",
+    "react": "^15.4.2",
     "react-bootstrap": "^0.30.7",
     "react-bootstrap-table": "^2.9.0",
     "react-clipboard.js": "^1.0.1",
     "react-datepicker": "^0.39.0",
     "react-dom": "^15.4.1",
+    "icheck": "^1.0.2",
     "react-icheck": "^0.3.6",
     "react-intl": "^2.2.3",
     "react-redux": "^5.0.2",
@@ -53,10 +54,28 @@
     "redux": "^3.6.0",
     "redux-form": "^6.4.3",
     "typescript": "^2.1.4",
-    "clean-webpack-plugin" : "^0.1.15"
+    "jquery": "^3.1.1",
+    "clean-webpack-plugin": "^0.1.15",
+    "awesome-typescript-loader": "^3.0.0-beta.18",
+    "cross-env": "^3.1.4",
+    "es3ify-loader": "^0.2.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "glob": "^7.1.1",
+    "json-loader": "^0.5.4",
+    "path": "^0.12.7",
+
+    "style-loader": "^0.13.1",
+    "postcss-loader": "^1.2.1",
+    "css-loader": "^0.26.1",
+
+    "react-hot-loader": "^1.3.1",
+    "url-loader": "^0.5.7",
+    "autoprefixer": "^6.7.3"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --watch"
+    "postpublish": "webpack-dev-server --display-error-details ./entry --hot --inline",
+    "start": "webpack --hot --watch --colors --profile"
   }
 }

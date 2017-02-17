@@ -1,39 +1,45 @@
 ﻿const webpack = require("webpack");
 const WebpackNotifierPlugin = require('webpack-notifier');
 const CleanWebpackPlugin = require('clean-webpack-plugin');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const autoprefixer = require('autoprefixer');
 const path = require("path");
 const DIST_FOLDER = 'dist';
 
+
 module.exports = {
-	entry: './Scripts/app/App.tsx',
+	entry: './Scripts/onepage/App.tsx',
 	output: {
-		filename: 'Scripts/app/bundle.js'
+	    path: 'Scripts/app/',
+	    filename: 'bundle.js',
+	    //publicPath: 'http://localhost:${port}/static/', // for dev
+        //port: port // for dev
 	},
 	resolve: {
         extensions: ['', '.Webpack.js', '.web.js', '.ts', '.js', '.tsx']
 	},
 	plugins: [
-        //new ExtractTextPlugin('vendor.css', {
-        //    allChunks: true,
-        //    disable: NODE_ENV !== 'production'
-        //}),
+        new ExtractTextPlugin('vendor.css', {
+            allChunks: true,
+            disable: false,
+        }),
         //new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.js"),
-        //new webpack.ProvidePlugin({
-        //    //$: 'signalr',
-        //    //$: 'jquery',
-        //    //$: 'jquery-validation',
-        //    //jQuery: 'jquery'
-        //    _: 'lodash',
-        //    moment: 'moment',
-        //    math: 'mathjs',
-        //    html2canvas: "html2canvas",
-        //}),
+        new webpack.ProvidePlugin({
+            //$: 'signalr',
+            //$: 'jquery',
+            //$: 'jquery-validation',
+            //jQuery: 'jquery'
+            _: 'lodash',
+            moment: 'moment',
+            math: 'mathjs',
+            html2canvas: "html2canvas",
+        }),
         //new webpack.DefinePlugin({
         //    'process.env': {
         //        'NODE_ENV': JSON.stringify(NODE_ENV)
         //    }
         //}),
-        //new webpack.HotModuleReplacementPlugin(),    // for dev
+     //   new webpack.HotModuleReplacementPlugin(),    // for dev
         //new webpack.NoErrorsPlugin(),
         //new WebpackNotifierPlugin(),
         //new webpack.DllReferencePlugin({
@@ -59,31 +65,35 @@ module.exports = {
             },
             //{ test: /\.css$/, loader: "style!css" },
             //{ test: /\.ts(x?)$/, loader: 'ts-loader' }  // for production
-            {
-                test: /\.ts(x?)$/,
-                loaders: ['react-hot', 'awesome-typescript-loader'],
-                include: path.join(__dirname, '/TypeScripts/src')
-            },
-            {
-                test: /\.js(x?)$/,
-                loaders: ['react-hot', 'awesome-typescript-loader?doTypeCheck=false&useBabel=true&useWebpackText=true'],
-                include: path.join(__dirname, '/TypeScripts/src')
-            },
+            //{
+            //    test: /\.ts(x?)$/,
+            //    loaders: ['react-hot', 'awesome-typescript-loader'],
+            //    include: path.join(__dirname, '/Scripts')
+            //},
+            //{
+            //    test: /\.js(x?)$/,
+            //    loaders: ['react-hot', 'awesome-typescript-loader?doTypeCheck=false&useBabel=true&useWebpackText=true'],
+            //    include: path.join(__dirname, '/Scripts')
+            //},
             //{ test: /\.tsx?$/, loader: 'ts-loader?compiler=ntypescript' }
             {
                 include: /\.json$/,
                 loaders: ["json-loader"]
             },
-            //{
-            //    test: /\.css$/,
-            //    loader: ExtractTextPlugin.extract(
-            //        'style-loader',
-            //        //'css-loader?modules&importLoaders=1&localIdentName=[local]!postcss-loader'
-            //        'css-loader!postcss-loader'
-            //    ),
-            //},
+            {
+                test: /\.css$/,
+                loader: ExtractTextPlugin.extract(
+                    'style-loader',
+                    //'css-loader?modules&importLoaders=1&localIdentName=[local]!postcss-loader'
+                    'css-loader!postcss-loader'
+                ),
+            },
             { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
 	    ]
-	},
+    },
+    postcss: function () {
+        return [
+            autoprefixer
+        ];
+    },
 }
-console.log("am i here?");

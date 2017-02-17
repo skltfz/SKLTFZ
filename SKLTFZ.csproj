@@ -27,6 +27,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <TypeScriptToolsVersion>2.1</TypeScriptToolsVersion>
+    <TypeScriptCompileBlocked>true</TypeScriptCompileBlocked>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -236,6 +237,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\OnePageWebSiteController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Global.asax.cs">
@@ -258,6 +260,7 @@
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
     </Content>
     <Content Include="Webpack.config.js" />
     <None Include=".bin\node.cmd" />
@@ -313,7 +316,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Scripts\react\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
@@ -327,8 +329,13 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="relay.js" />
-    <TypeScriptCompile Include="Scripts\app\App.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\App.tsx" />
     <Content Include="tsconfig.json" />
+    <None Include="Views\OnePageWebSite\Index.cshtml" />
+    <TypeScriptCompile Include="Scripts\onepage\component\Checkbox.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\module\Routing.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\page\Page1.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\page\Page2.tsx" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

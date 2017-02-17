@@ -1,5 +1,4 @@
-﻿console.log("zz");
-var webpack = require('webpack');
+﻿var webpack = require('webpack');
 var WebpackDevServer = require('webpack-dev-server');
 var config = require('./Webpack.config');
 
