@@ -3,35 +3,48 @@ var WebpackDevServer = require('webpack-dev-server');
 var config = require('./Webpack.config');
 
 
+new WebpackDevServer(webpack(config), {
+    // https://webpack.github.io/docs/webpack-dev-server.html
+    publicPath: config.output.publicPath,
+    hot: true,
+    historyApiFallback: true,
+    quiet: false,//???
+    noInfo: false,//???
+    // https://webpack.js.org/configuration/stats/
+    stats: {
+        colors: true,
+        hash: false,
+        version: false,
+        timings: true,
+        assets: true,
+        chunks: false,
+        modules: false,
+        reasons: true,//???
+        children: true,//???
+        source: false,
+        errors: true,
+        errorDetails: true,
+        warnings: true,
+        publicPath: false,
+        cached: false
+    }
+}).listen(config.output.port, 'localhost', function (err, result) {
+    if (err) {
+        return console.log(err);
+    }
+
+    console.log(`Listening at http://localhost:${config.output.port}/`);
+});
+
 //new WebpackDevServer(webpack(config), {
-//    // https://webpack.github.io/docs/webpack-dev-server.html
 //    publicPath: config.output.publicPath,
 //    hot: true,
 //    historyApiFallback: true,
-//    quiet: false,//???
-//    noInfo: false,//???
-//    // https://webpack.js.org/configuration/stats/
-//    stats: {
-//        colors: true,
-//        hash: false,
-//        version: false,
-//        timings: true,
-//        assets: true,
-//        chunks: false,
-//        modules: false,
-//        reasons: true,//???
-//        children: true,//???
-//        source: false,
-//        errors: true,
-//        errorDetails: true,
-//        warnings: true,
-//        publicPath: false,
-//        cached: false
-//    }
-//}).listen(config.output.port, 'localhost', function (err, result) {
+//    headers: { 'Access-Control-Allow-Origin': '*' }
+//}).listen(3000, 'localhost', function (err, result) {
 //    if (err) {
-//        return console.log(err);
+//        console.log(err);
 //    }
 
-//    console.log(`Listening at http://localhost:${config.output.port}/`);
+//    console.log('Listening at localhost:3000');
 //});

@@ -256,6 +256,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="index.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="ApplicationInsights.config">
@@ -264,6 +265,7 @@
     </Content>
     <Content Include="Webpack.config.js" />
     <None Include=".bin\node.cmd" />
+    <Content Include="tslint.json" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -332,7 +334,9 @@
     <TypeScriptCompile Include="Scripts\onepage\App.tsx" />
     <Content Include="tsconfig.json" />
     <None Include="Views\OnePageWebSite\Index.cshtml" />
-    <TypeScriptCompile Include="Scripts\onepage\component\Checkbox.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\component\CheckBox.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\component\Index.tsx" />
+    <TypeScriptCompile Include="Scripts\onepage\component\RenderText.tsx" />
     <TypeScriptCompile Include="Scripts\onepage\module\Routing.tsx" />
     <TypeScriptCompile Include="Scripts\onepage\page\Page1.tsx" />
     <TypeScriptCompile Include="Scripts\onepage\page\Page2.tsx" />

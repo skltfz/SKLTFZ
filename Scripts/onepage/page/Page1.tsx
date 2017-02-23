@@ -1,8 +1,10 @@
-﻿import * as React from 'react'
-import Checkbox from '../component/Checkbox'
+﻿import * as React from "react";
+// import { CheckBox, RenderText } from '../component';
+
+
 export default React.createClass({
     render() {
-        return <div><Checkbox />
-            </div>
-    }
-})
+        return <div>wwow, done due llee o</div>;
+    },
+});
+

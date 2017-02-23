@@ -1,29 +1,54 @@
-﻿const webpack = require("webpack");
-const WebpackNotifierPlugin = require('webpack-notifier');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-const autoprefixer = require('autoprefixer');
-const path = require("path");
-const DIST_FOLDER = 'dist';
+﻿'use strict';
 
+const webpack = require("webpack");
+const glob = require("glob");
+const path = require('path');
+const pkg = require('./package');
+const WebpackNotifierPlugin = require('webpack-notifier');
+const ExtractTextPlugin = require('extract-text-webpack-plugin');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
+const autoprefixer = require('autoprefixer');
+const DIST_FOLDER = 'dist';
+const port = 8080;
+const NODE_ENV = process.env.NODE_ENV ? process.env.NODE_ENV.toLowerCase() : 'development';
+
+//function getEntries() {
+//    const files = glob.sync("./TypeScripts/src/entries/**/!(*.d).ts?(x)");
+//    let entries = {}, entry, dirname, basename;
+
+//    for (var i = 0; i < files.length; i++) {
+//        entry = files[i];
+//        dirname = path.dirname(entry).replace(/TypeScripts\/src/i, '');
+//        basename = path.basename(entry, '.tsx');
+//        basename = path.basename(basename, '.ts');
+
+//        // entries[path.join(dirname, basename)] = [entry]; // for production
+//        entries[path.join(dirname, basename)] = buildEntryPoint(entry);
+//    }
+
+//    return entries;
+//}
+
+//var entries = getEntries();
 
 module.exports = {
-	entry: './Scripts/onepage/App.tsx',
-	output: {
-	    path: 'Scripts/app/',
-	    filename: 'bundle.js',
-	    //publicPath: 'http://localhost:${port}/static/', // for dev
-        //port: port // for dev
-	},
-	resolve: {
-        extensions: ['', '.Webpack.js', '.web.js', '.ts', '.js', '.tsx']
-	},
-	plugins: [
+        entry: [
+            'webpack-dev-server/client?http://localhost:8080',
+            'webpack/hot/only-dev-server',
+            './Scripts/onepage/App.tsx',
+        ],
+    	output: {
+    	    path: path.resolve(__dirname, './dist'),
+    	    publicPath: 'http://localhost:8080/dist/', //dev
+    	    filename: '[name].js',
+            port: port,	   
+    	},
+    plugins: [
         new ExtractTextPlugin('vendor.css', {
             allChunks: true,
-            disable: false,
+            disable: NODE_ENV !== 'production'
         }),
-        //new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.js"),
+        new webpack.optimize.CommonsChunkPlugin(/* chunkName= */"vendor", /* filename= */"vendor.js"),
         new webpack.ProvidePlugin({
             //$: 'signalr',
             //$: 'jquery',
@@ -34,14 +59,14 @@ module.exports = {
             math: 'mathjs',
             html2canvas: "html2canvas",
         }),
-        //new webpack.DefinePlugin({
-        //    'process.env': {
-        //        'NODE_ENV': JSON.stringify(NODE_ENV)
-        //    }
-        //}),
-     //   new webpack.HotModuleReplacementPlugin(),    // for dev
-        //new webpack.NoErrorsPlugin(),
-        //new WebpackNotifierPlugin(),
+        new webpack.DefinePlugin({
+            'process.env': {
+                'NODE_ENV': JSON.stringify(NODE_ENV)
+            }
+        }),
+        //new webpack.HotModuleReplacementPlugin(),    // for dev
+        new webpack.NoErrorsPlugin(),
+        new WebpackNotifierPlugin(),
         //new webpack.DllReferencePlugin({
         //    context: __dirname,
         //    manifest: require('./Scripts/dll/manifest.json'),
@@ -49,33 +74,23 @@ module.exports = {
         new CleanWebpackPlugin([DIST_FOLDER], {
             "verbose": true
         })
-	],
+    ],
+    resolve: {
+        extensions: ['', '.ts', '.tsx', '.js']
+    },
     devtool: 'source-map',
-	//devtool: 'cheap-module-eval-source-map',
-    //devtool: 'inline-eval-cheap-source-map',
-    module: {        
-	    //preLoaders: [
-        //    { test: /\.ts(x?)$/, loader: "tslint", exclude: [/api.ts/] }
-	    //],
+    module: {
+        preLoaders: [
+            { test: /\.ts(x?)$/, loader: "tslint", exclude: [/api.ts/] }
+        ],
         loaders: [
-            {
-                test: /\.tsx?$/,
-                exclude:    /(node_modules|bower_components)/,
-                loader:'ts-loader'
-            },
             //{ test: /\.css$/, loader: "style!css" },
             //{ test: /\.ts(x?)$/, loader: 'ts-loader' }  // for production
-            //{
-            //    test: /\.ts(x?)$/,
-            //    loaders: ['react-hot', 'awesome-typescript-loader'],
-            //    include: path.join(__dirname, '/Scripts')
-            //},
-            //{
-            //    test: /\.js(x?)$/,
-            //    loaders: ['react-hot', 'awesome-typescript-loader?doTypeCheck=false&useBabel=true&useWebpackText=true'],
-            //    include: path.join(__dirname, '/Scripts')
-            //},
-            //{ test: /\.tsx?$/, loader: 'ts-loader?compiler=ntypescript' }
+            {
+                test: /\.ts(x?)$/,
+                loaders: ['react-hot', 'awesome-typescript-loader'],
+                include: path.join(__dirname, './Scripts/onepage')
+            },
             {
                 include: /\.json$/,
                 loaders: ["json-loader"]
@@ -89,11 +104,37 @@ module.exports = {
                 ),
             },
             { test: /\.(png|jpg)$/, loader: 'url-loader?limit=8192' },
-	    ]
+        ]
+    },
+    tslint: {
+        emitErrors: false,
+        failOnHint: false
     },
     postcss: function () {
         return [
             autoprefixer
         ];
-    },
+    }
 }
+
+//if (process.env.NODE_ENV === 'production') {
+//    console.log("reason to wrong?");
+//    module.exports.devtool = '#source-map'
+//    // http://vue-loader.vuejs.org/en/workflow/production.html
+//    module.exports.plugins = (module.exports.plugins || []).concat([
+//      new webpack.DefinePlugin({
+//          'process.env': {
+//              NODE_ENV: '"production"'
+//          }
+//      }),
+//      new webpack.optimize.UglifyJsPlugin({
+//          sourceMap: true,
+//          compress: {
+//              warnings: false
+//          }
+//      }),
+//      new webpack.LoaderOptionsPlugin({
+//          minimize: true
+//      })
+//    ])
+//}
